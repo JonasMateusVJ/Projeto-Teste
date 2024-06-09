@@ -1,0 +1,14 @@
+import pyautogui
+import pyperclip
+
+def escrever_frase(frase):
+    pyautogui.copy(frase)
+    pyautogui.hotkey('ctrl','v')
+
+pyautogui.moveTo(812,268,duration=2)               )
+
+pyautogui.click()
+
+escrever_frase('Automação é incrível!')
+
+
