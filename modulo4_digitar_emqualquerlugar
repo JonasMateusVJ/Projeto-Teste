@@ -11,6 +11,10 @@ pyautogui.click(duration=1)
 
 escrever_frase('Automação é incrível!')
 
+pyautogui.press('enter')
+escrever_frase('conseguir')
+pyautogui.press('tab')
+escrever_frase('tudo lindo!')
 
 
 
