@@ -5,7 +5,7 @@ from time import sleep
 telefones = []
 with open('fones.txt','r') as arquivo:
     for linha in arquivo:
-        telefones.append(linha)
+        telefones.append(linha.split('\n')[0])
     print(telefones)
 
 # for telefone in telefones:
