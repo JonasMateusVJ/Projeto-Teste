@@ -24,3 +24,4 @@ while keyboard.is_pressed('1') == False:
         click(1198,573)
     if pyautogui.pixelMatchesColor(1265,570, (0, 0, 0)):
         click(1265,570)
+#https://gameforge.com/pt-BR/littlegames/magic-piano-tiles/#
